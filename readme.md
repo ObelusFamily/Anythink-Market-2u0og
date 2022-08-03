@@ -1,4 +1,5 @@
-**[setting local environment- `@vanessa-cooper`]:**
+**[setting local environmentTODO 3/08/2022- `@vanessa-cooper`]:**
+
 # Welcome to the Anythink Market repo
 
 To start the app use Docker. It will start both frontend and backend, including all the relevant dependencies, and the db.
