@@ -1,4 +1,4 @@
-**[setting local environmentTODO 3/08/2022- `@vanessa-cooper`]:**
+**[setting local environment 3/08/2022- `@vanessa-cooper`]:**
 
 # Welcome to the Anythink Market repo
 
