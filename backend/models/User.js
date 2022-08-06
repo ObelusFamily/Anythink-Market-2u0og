@@ -4,6 +4,7 @@ var crypto = require("crypto");
 var jwt = require("jsonwebtoken");
 var secret = require("../config").secret;
 
+
 var UserSchema = new mongoose.Schema(
   {
     username: {
@@ -23,7 +24,7 @@ var UserSchema = new mongoose.Schema(
       index: true
     },
     bio: String,
-    image: String,
+    image:String,
     role: {
       type: String,
       enum: ["user", "admin"],
