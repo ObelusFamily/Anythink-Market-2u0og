@@ -49,7 +49,8 @@ ItemSchema.methods.toJSONFor = function(user) {
     slug: this.slug,
     title: this.title,
     description: this.description,
-    image: this.image==""? "file:///../public/placeholder.png":this.image,
+    image: this.image==""?"https://i.imgur.com/dvctQNV.png":this.image,
+
     createdAt: this.createdAt,
     updatedAt: this.updatedAt,
     tagList: this.tagList,
