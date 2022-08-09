@@ -15,6 +15,7 @@ const mapDispatchToProps = (dispatch) => ({
       type: ITEM_UNFAVORITED,
       payload: agent.Items.unfavorite(slug),
     }),
+    
 });
 
 const ItemPreview = (props) => {
