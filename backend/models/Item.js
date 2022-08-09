@@ -2,6 +2,15 @@ var mongoose = require("mongoose");
 var uniqueValidator = require("mongoose-unique-validator");
 var slug = require("slug");
 var User = mongoose.model("User");
+// var url=require("url");
+// const path='../models/placeholder.png';
+
+// const fs = require('fs');
+// const path = require('path');
+
+// const img = path.join(__dirname,'placeholder.png');
+// const file = fs.readFile(image, {encoding:'utf8'});
+
 
 var ItemSchema = new mongoose.Schema(
   {
