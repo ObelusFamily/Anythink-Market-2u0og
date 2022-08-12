@@ -51,10 +51,10 @@ class Item extends React.Component {
             <div className="col-6">
               <img
                 src={
-                  this.props.item.image ?
-                this.props.item.image :
-              "/placeholder.png"
-            }
+                  this.props.item.image
+                    ? this.props.item.image
+                    : "/placeholder.png"
+                }
                 alt={this.props.item.title}
                 className="item-img"
                 style={{ height: "500px", width: "100%", borderRadius: "6px" }}
